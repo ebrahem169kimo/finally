@@ -11,7 +11,7 @@ function getIPAddress() {
 
 // Function to send IP address to server
 function saveIPAddress(ipAddress) {
-    fetch('save_ip.php', {
+    fetch('index.php', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
